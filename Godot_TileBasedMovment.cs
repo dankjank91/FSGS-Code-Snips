@@ -1,6 +1,10 @@
 using Godot;
 using System;
 
+namespace PLAYER
+{
+
+
 public class Player : KinematicBody2D
 {
     public Vector2 velocity = new Vector2();
@@ -112,3 +116,5 @@ public class Player : KinematicBody2D
 
 }
 
+
+}
